@@ -62,7 +62,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 
 
-    /*--------HERO-------*/
+    /*--------HERO1-------*/
 
 .hero {
     background-color: var(--NAVY-BLUE, #2E2F42);
@@ -93,16 +93,25 @@ color: var(--NAVY-BLUE, #2E2F42);
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.64px;
-        background-color: #4D5AE5;
+        
+        cursor: pointer;
+        
     }
-        /*--------HERO-------*/
+
+        .header-menu-link:hover,
+        .header-menu-link:focus {
+            background-color: #404bbf;
+        }
+    
+        
+        /*--------HERO1-------*/
 
 
-     /*--------POSITION-------*/
+     /*--------POSITION2-------*/
     .position {
     background-color: #FFF;
     }
-        .position-title{
+        .position-title {
 
         }
 
@@ -137,9 +146,9 @@ color: var(--NAVY-BLUE, #2E2F42);
             letter-spacing: 0.32px;
     }
 
-/*--------POSITION-------*/
+/*--------POSITION2-------*/
 
-/*--------OUR-TEAM-------*/
+/*--------OUR-TEAM3-------*/
 
 
 .our-team {
@@ -202,10 +211,10 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 
-/*--------OUR-TEAM-------*/
+/*--------OUR-TEAM3-------*/
 
 
-/*--------OUR-PORTFOLIO-------*/
+/*--------OUR-PORTFOLIO4-------*/
 
 .our-portfolio {}
 
@@ -257,11 +266,11 @@ color: var(--NAVY-BLUE, #2E2F42);
         /* 150% */
         letter-spacing: 0.32px;
 }
-/*--------OUR-PORTFOLIO-------*/
+/*--------OUR-PORTFOLIO4-------*/
 
 
 
-/*--------FOOTER-------*/
+/*--------FOOTER5-------*/
 
 .footer {
     background-color: var(--NAVY-BLUE, #2E2F42);
@@ -308,4 +317,4 @@ color: #F4F4FD;
 }
 
 
-/*--------FOOTER-------*/
+/*--------FOOTER5-------*/
